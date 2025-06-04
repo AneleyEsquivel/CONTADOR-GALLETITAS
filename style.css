@@ -1,0 +1,85 @@
+
+    body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image:  url('./imagen/aad1905b5e6ed1999e6f744636988fb1.jpg'); /* <-- aquí va la ruta */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Comic Neue', cursive;
+}
+
+    h1 {
+      color: #5a2c00;
+    }
+
+    .cookie {
+      font-size: 140px;
+      cursor: pointer;
+      transition: transform 0.2s ease;
+    }
+
+    .cookie:active {
+      transform: scale(0.9);
+    }
+
+    #contador {
+      font-size: 28px;
+      margin: 20px 0;
+      color: #5a2c00;
+    }
+
+    .progress-container {
+      width: 80%;
+      max-width: 400px;
+      height: 30px;
+      background-color: #e0e0e0;
+      border-radius: 20px;
+      overflow: hidden;
+      margin-top: 20px;
+      border: 2px solid #ccc;
+    }
+
+    .progress-bar {
+      height: 100%;
+      width: 0%;
+      background-color: #ff9800;
+      transition: width 0.4s ease, background-color 0.3s ease;
+    }
+
+    #mensaje {
+      display: none;
+      margin-top: 30px;
+      font-size: 26px;
+      color: #d84315;
+      font-weight: bold;
+    }
+
+    #reiniciar {
+      display: none;
+      margin-top: 20px;
+      padding: 10px 20px;
+      font-size: 18px;
+      border: none;
+      border-radius: 10px;
+      background-color: #ff9800;
+      color: white;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    #reiniciar:hover {
+      background-color: #e67e22;
+    }
+
+    .emoji {
+      font-size: 40px;
+      margin-top: 10px;
+    }
+  
+    
+
